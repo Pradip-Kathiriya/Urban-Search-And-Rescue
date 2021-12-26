@@ -1,0 +1,10 @@
+Download the package into the src directory of your catkin workspace
+
+####################Open your catkin workspace in the terminal then enter and run the following code
+> catkin build final_project
+
+####################Once the package is built, in the terminal enter and run the following code
+> roslaunch final_project multiple_robots.launch
+
+###################And in a new terminal enter and run the following code
+> rosrun final_project final_project_node
